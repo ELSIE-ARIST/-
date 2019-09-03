@@ -1,0 +1,9 @@
+name: HelloWorld
+version: ${project.version}
+main: test.tutorial.helloworld.HelloWorld
+api-version: 1.13
+commands:
+  monkey:
+    description: HelloWorld
+    usage: /<command>
+    default: op
